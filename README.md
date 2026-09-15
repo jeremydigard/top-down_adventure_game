@@ -2,7 +2,7 @@
 
 A top-down adventure game in which you explore maps, collect crystals, avoid hazards, activate levers, and progress from level to level.
 
-<img src="assets/GAME_SCREENSHOT.png" width="400" alt="Capture d'écran">
+<img src="assets/GAME_SCREENSHOT.png" width="650" alt="Capture d'écran">
 
 
 ## Starting the Game
