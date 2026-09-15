@@ -1,0 +1,38 @@
+width: 40
+height: 15
+next_map: map3.txt
+switches:
+  - id: meadow_key
+    x: 5
+    y: 4
+  - id: garden_key
+    x: 17
+    y: 11
+gates:
+  - x: 11
+    y: 3
+    open_if:
+      switch_is_on: meadow_key
+  - x: 28
+    y: 11
+    open_if:
+      and:
+        - switch_is_on: meadow_key
+        - switch_is_on: garden_key
+---
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+x                           x          x
+x                     *     x    *  E  x
+x                ^          |     v    x
+x                   v       xxxx  xxxxxx
+x              b            x          x
+x             *         S   x          x
+x                           x          x
+xxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxx
+x          x xx xxx      *             x
+x    ^   * x  O   s       O            x
+x          |   O  O  O  O              x
+x   xx xx  x *      *                  x
+x P *      x                           x
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+---

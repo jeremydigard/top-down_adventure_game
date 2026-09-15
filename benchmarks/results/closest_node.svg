@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+<style>text{font-family:Arial,sans-serif;font-size:13px} .label{fill:#333} .grid{stroke:#ddd;stroke-width:1} .axis{stroke:#333;stroke-width:1.5}</style>
+<text x="380.0" y="24" text-anchor="middle" font-size="18" font-weight="700">Recherche du noeud le plus proche</text>
+<line class="axis" x1="82" y1="48" x2="82" y2="388"/>
+<line class="axis" x1="82" y1="388" x2="736" y2="388"/>
+<line class="grid" x1="82" y1="388.00" x2="736" y2="388.00"/>
+<text class="label" x="74" y="392.00" text-anchor="end">0</text>
+<line class="grid" x1="82" y1="303.00" x2="736" y2="303.00"/>
+<text class="label" x="74" y="307.00" text-anchor="end">1.37e+03</text>
+<line class="grid" x1="82" y1="218.00" x2="736" y2="218.00"/>
+<text class="label" x="74" y="222.00" text-anchor="end">2.75e+03</text>
+<line class="grid" x1="82" y1="133.00" x2="736" y2="133.00"/>
+<text class="label" x="74" y="137.00" text-anchor="end">4.12e+03</text>
+<line class="grid" x1="82" y1="48.00" x2="736" y2="48.00"/>
+<text class="label" x="74" y="52.00" text-anchor="end">5.49e+03</text>
+<line class="grid" x1="82.00" y1="48" x2="82.00" y2="388"/>
+<text class="label" x="82.00" y="410" text-anchor="middle">225</text>
+<line class="grid" x1="245.50" y1="48" x2="245.50" y2="388"/>
+<text class="label" x="245.50" y="410" text-anchor="middle">1.46e+04</text>
+<line class="grid" x1="409.00" y1="48" x2="409.00" y2="388"/>
+<text class="label" x="409.00" y="410" text-anchor="middle">2.89e+04</text>
+<line class="grid" x1="572.50" y1="48" x2="572.50" y2="388"/>
+<text class="label" x="572.50" y="410" text-anchor="middle">4.33e+04</text>
+<line class="grid" x1="736.00" y1="48" x2="736.00" y2="388"/>
+<text class="label" x="736.00" y="410" text-anchor="middle">5.76e+04</text>
+<polyline fill="none" stroke="#7c3aed" stroke-width="2.5" points="82.00,387.76 89.69,387.74 120.47,387.70 243.58,387.71 736.00,387.68"/>
+<circle cx="82.00" cy="387.76" r="3.5" fill="#7c3aed"/>
+<circle cx="89.69" cy="387.74" r="3.5" fill="#7c3aed"/>
+<circle cx="120.47" cy="387.70" r="3.5" fill="#7c3aed"/>
+<circle cx="243.58" cy="387.71" r="3.5" fill="#7c3aed"/>
+<circle cx="736.00" cy="387.68" r="3.5" fill="#7c3aed"/>
+<rect x="580" y="38" width="16" height="4" fill="#7c3aed"/>
+<text class="label" x="602" y="43">buckets</text>
+<polyline fill="none" stroke="#dc2626" stroke-width="2.5" points="82.00,386.75 89.69,382.87 120.47,368.42 243.58,308.09 736.00,48.00"/>
+<circle cx="82.00" cy="386.75" r="3.5" fill="#dc2626"/>
+<circle cx="89.69" cy="382.87" r="3.5" fill="#dc2626"/>
+<circle cx="120.47" cy="368.42" r="3.5" fill="#dc2626"/>
+<circle cx="243.58" cy="308.09" r="3.5" fill="#dc2626"/>
+<circle cx="736.00" cy="48.00" r="3.5" fill="#dc2626"/>
+<rect x="580" y="60" width="16" height="4" fill="#dc2626"/>
+<text class="label" x="602" y="65">legacy</text>
+<text class="label" x="409.0" y="440" text-anchor="middle">noeuds de navmesh</text>
+<text class="label" transform="translate(20 218.0) rotate(-90)" text-anchor="middle">temps median pour 300 requetes (ms)</text>
+</svg>

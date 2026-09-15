@@ -1,0 +1,68 @@
+width: 44
+height: 19
+next_map: map5.txt
+switches:
+  - id: forge_lower_left
+    x: 21
+    y: 2
+  - id: forge_lower_right
+    x: 22
+    y: 2
+  - id: forge_south_west
+    x: 4
+    y: 7
+  - id: forge_south_east
+    x: 39
+    y: 7
+  - id: forge_north_west
+    x: 4
+    y: 16
+  - id: forge_north_east
+    x: 39
+    y: 16
+gates:
+  - x: 21
+    y: 4
+    open_if:
+      switch_is_on: forge_lower_left
+  - x: 22
+    y: 4
+    open_if:
+      switch_is_on: forge_lower_right
+  - x: 21
+    y: 15
+    open_if:
+      and:
+        - switch_is_on: forge_south_west
+        - switch_is_on: forge_south_east
+        - switch_is_on: forge_north_west
+        - switch_is_on: forge_north_east
+  - x: 22
+    y: 15
+    open_if:
+      and:
+        - switch_is_on: forge_south_west
+        - switch_is_on: forge_south_east
+        - switch_is_on: forge_north_west
+        - switch_is_on: forge_north_east
+---
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+x             x*     **     *x         *   x
+x   ^         x v OO    OO v x         ^   x
+x     b   s   xxxxxxx||xxxxxxx   s   b     x
+x  xxxxx xxxxxx xx        xxx xxxxxx xxxx  x
+x         *          xx          *         x
+x    OO         s    xx    s         OO    x
+x  S b               xx               b S  x
+x         v    * OO bxxb OO *    v         x
+xxxxx xxxxxxxxxxxxxxx  xxxxxxxxxxxxxxx xxxxx
+x                    xx                    x
+x   ^                xx                ^   x
+x    OOO   *     S   xx   S     *   OOO    x
+x                    xx                    x
+x  xxxxx xxxxxx xx   ||   xxx xxxxxx xxxx  x
+x         s          xx          s         x
+x     OOO       v    ^^    v       OOO     x
+x P *    E  *        xx        *       *   x
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+---

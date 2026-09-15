@@ -1,0 +1,51 @@
+width: 42
+height: 17
+next_map: map4.txt
+switches:
+  - id: marsh_west_trial
+    x: 5
+    y: 3
+  - id: marsh_east_trial
+    x: 36
+    y: 3
+  - id: marsh_center_trial
+    x: 20
+    y: 9
+  - id: marsh_exit_key
+    x: 33
+    y: 13
+gates:
+  - x: 20
+    y: 11
+    open_if:
+      and:
+        - switch_is_on: marsh_west_trial
+        - switch_is_on: marsh_east_trial
+        - switch_is_on: marsh_center_trial
+  - x: 35
+    y: 14
+    open_if:
+      and:
+        - switch_is_on: marsh_west_trial
+        - switch_is_on: marsh_east_trial
+        - switch_is_on: marsh_center_trial
+        - switch_is_on: marsh_exit_key
+---
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+x                             *v       E x
+x                     xxxxxxxxxxxxx|xxxxxx
+x  S    b         v      s  OO   ^    O  x
+x               *       *      x  b  *S  x
+xxxxxxxxxxxxxxxxxxxx|xxxxxxxxxxxxxxxxxxxxx
+x            x  OO     OO  x             x
+x            x xxxxx^xxxxx x             x
+x          v    s   *   s     v          x
+x            x xxxxx xxxxx x             x
+x            x  OO* S *OO  x             x
+xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxx
+x   * x OO O                  O OOx      x
+x    ^          s       s           ^    x
+x     xxOO Ox       b        xO OOx      x
+x  P  x     *                     x      x
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+---

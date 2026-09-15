@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+<style>text{font-family:Arial,sans-serif;font-size:13px} .label{fill:#333} .grid{stroke:#ddd;stroke-width:1} .axis{stroke:#333;stroke-width:1.5}</style>
+<text x="380.0" y="24" text-anchor="middle" font-size="18" font-weight="700">Chargement du monde</text>
+<line class="axis" x1="82" y1="48" x2="82" y2="388"/>
+<line class="axis" x1="82" y1="388" x2="736" y2="388"/>
+<line class="grid" x1="82" y1="388.00" x2="736" y2="388.00"/>
+<text class="label" x="74" y="392.00" text-anchor="end">0</text>
+<line class="grid" x1="82" y1="303.00" x2="736" y2="303.00"/>
+<text class="label" x="74" y="307.00" text-anchor="end">155</text>
+<line class="grid" x1="82" y1="218.00" x2="736" y2="218.00"/>
+<text class="label" x="74" y="222.00" text-anchor="end">309</text>
+<line class="grid" x1="82" y1="133.00" x2="736" y2="133.00"/>
+<text class="label" x="74" y="137.00" text-anchor="end">464</text>
+<line class="grid" x1="82" y1="48.00" x2="736" y2="48.00"/>
+<text class="label" x="74" y="52.00" text-anchor="end">619</text>
+<line class="grid" x1="82.00" y1="48" x2="82.00" y2="388"/>
+<text class="label" x="82.00" y="410" text-anchor="middle">25</text>
+<line class="grid" x1="245.50" y1="48" x2="245.50" y2="388"/>
+<text class="label" x="245.50" y="410" text-anchor="middle">1.62e+03</text>
+<line class="grid" x1="409.00" y1="48" x2="409.00" y2="388"/>
+<text class="label" x="409.00" y="410" text-anchor="middle">3.21e+03</text>
+<line class="grid" x1="572.50" y1="48" x2="572.50" y2="388"/>
+<text class="label" x="572.50" y="410" text-anchor="middle">4.81e+03</text>
+<line class="grid" x1="736.00" y1="48" x2="736.00" y2="388"/>
+<text class="label" x="736.00" y="410" text-anchor="middle">6.4e+03</text>
+<polyline fill="none" stroke="#2563eb" stroke-width="2.5" points="82.00,383.89 89.69,380.42 120.47,364.75 243.58,306.39 736.00,48.00"/>
+<circle cx="82.00" cy="383.89" r="3.5" fill="#2563eb"/>
+<circle cx="89.69" cy="380.42" r="3.5" fill="#2563eb"/>
+<circle cx="120.47" cy="364.75" r="3.5" fill="#2563eb"/>
+<circle cx="243.58" cy="306.39" r="3.5" fill="#2563eb"/>
+<circle cx="736.00" cy="48.00" r="3.5" fill="#2563eb"/>
+<rect x="580" y="38" width="16" height="4" fill="#2563eb"/>
+<text class="label" x="602" y="43">chargement</text>
+<text class="label" x="409.0" y="440" text-anchor="middle">cellules de map</text>
+<text class="label" transform="translate(20 218.0) rotate(-90)" text-anchor="middle">temps median (ms)</text>
+</svg>

@@ -1,0 +1,25 @@
+[project]
+name = "projet"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "arcade>=3.3.3",
+    "networkx>=3.6.1",
+    "pyyaml>=6.0.3",
+]
+[tool.ruff.lint]
+select = ["ANN"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+    "ruff>=0.15.1",
+    "ty>=0.0.17",
+]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]

@@ -1,0 +1,19 @@
+width: 45
+height: 15
+---
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxx                                     xxxx
+xxx  ***** *  * ****   **** *   * ***    xxxx
+xx     *   *  * *      *    **  * *  *    xxx
+xx P   *   **** ****   **** * * * *  *    xxx
+xx     *   *  * *      *    *  ** *  *    xxx
+xxx    *   *  * ****   **** *   * ***    xxxx
+xxxx                                     xxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+---

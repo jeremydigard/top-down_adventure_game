@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+<style>text{font-family:Arial,sans-serif;font-size:13px} .label{fill:#333} .grid{stroke:#ddd;stroke-width:1} .axis{stroke:#333;stroke-width:1.5}</style>
+<text x="380.0" y="24" text-anchor="middle" font-size="18" font-weight="700">on_update avec blobs visibles</text>
+<line class="axis" x1="82" y1="48" x2="82" y2="388"/>
+<line class="axis" x1="82" y1="388" x2="736" y2="388"/>
+<line class="grid" x1="82" y1="388.00" x2="736" y2="388.00"/>
+<text class="label" x="74" y="392.00" text-anchor="end">0</text>
+<line class="grid" x1="82" y1="303.00" x2="736" y2="303.00"/>
+<text class="label" x="74" y="307.00" text-anchor="end">5.06</text>
+<line class="grid" x1="82" y1="218.00" x2="736" y2="218.00"/>
+<text class="label" x="74" y="222.00" text-anchor="end">10.1</text>
+<line class="grid" x1="82" y1="133.00" x2="736" y2="133.00"/>
+<text class="label" x="74" y="137.00" text-anchor="end">15.2</text>
+<line class="grid" x1="82" y1="48.00" x2="736" y2="48.00"/>
+<text class="label" x="74" y="52.00" text-anchor="end">20.3</text>
+<line class="grid" x1="82.00" y1="48" x2="82.00" y2="388"/>
+<text class="label" x="82.00" y="410" text-anchor="middle">1</text>
+<line class="grid" x1="245.50" y1="48" x2="245.50" y2="388"/>
+<text class="label" x="245.50" y="410" text-anchor="middle">30.8</text>
+<line class="grid" x1="409.00" y1="48" x2="409.00" y2="388"/>
+<text class="label" x="409.00" y="410" text-anchor="middle">60.5</text>
+<line class="grid" x1="572.50" y1="48" x2="572.50" y2="388"/>
+<text class="label" x="572.50" y="410" text-anchor="middle">90.2</text>
+<line class="grid" x1="736.00" y1="48" x2="736.00" y2="388"/>
+<text class="label" x="736.00" y="410" text-anchor="middle">120</text>
+<polyline fill="none" stroke="#16a34a" stroke-width="2.5" points="82.00,382.94 92.99,377.30 131.46,335.34 241.38,95.07 406.25,68.54 736.00,48.00"/>
+<circle cx="82.00" cy="382.94" r="3.5" fill="#16a34a"/>
+<circle cx="92.99" cy="377.30" r="3.5" fill="#16a34a"/>
+<circle cx="131.46" cy="335.34" r="3.5" fill="#16a34a"/>
+<circle cx="241.38" cy="95.07" r="3.5" fill="#16a34a"/>
+<circle cx="406.25" cy="68.54" r="3.5" fill="#16a34a"/>
+<circle cx="736.00" cy="48.00" r="3.5" fill="#16a34a"/>
+<rect x="580" y="38" width="16" height="4" fill="#16a34a"/>
+<text class="label" x="602" y="43">on_update</text>
+<text class="label" x="409.0" y="440" text-anchor="middle">nombre de blobs</text>
+<text class="label" transform="translate(20 218.0) rotate(-90)" text-anchor="middle">temps median (ms)</text>
+</svg>
